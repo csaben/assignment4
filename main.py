@@ -2,7 +2,7 @@ import math
 
 def main():
     try:
-        x = int(input())
+        x = int(input()) #conflict for testing
         print(math.factorial(x))
     except Exception as e:
         print(e)
